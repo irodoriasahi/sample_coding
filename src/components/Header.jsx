@@ -17,22 +17,32 @@ export const Header = () => {
 };
 
 const SContainer = styled.div`
-  position: relative;
+position: relative;
   text-align: center;
 `;
 
 const MVimage = styled.img`
+
   width: 100%;
 `;
 
 const Logo = styled.img`
-  width: 50%;
+  width: 50vw;
 `;
 
 const SLogoContainer = styled.div`
   position: absolute;
   text-align: center;
   top:10vh;
-  left: 5vw;
+  left: calc(50vw / 2);
+
+    p {
+      margin: 0;
+      font-family: Oriya MN;
+      color: #fff;
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 `;
 
