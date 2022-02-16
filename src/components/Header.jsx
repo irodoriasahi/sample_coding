@@ -27,14 +27,14 @@ const MVimage = styled.img`
 `;
 
 const Logo = styled.img`
-  width: 50vw;
+  width: 50％;
 `;
 
 const SLogoContainer = styled.div`
   position: absolute;
   text-align: center;
-  top:10vh;
-  left: calc(50vw / 2);
+  top:25%;
+  left: 25%;
 
     p {
       margin: 0;
