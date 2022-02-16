@@ -3,7 +3,7 @@ import logo from "./img/logo.png";
 import mv from "./img/mv.jpg";
 //画像等をインポートするときは{}はいらない
 
-export const Fv = () => {
+export const Header = () => {
 
   return (
     <SContainer>
@@ -22,7 +22,6 @@ const SContainer = styled.div`
 `;
 
 const MVimage = styled.img`
-
   width: 100%;
 `;
 
@@ -34,6 +33,6 @@ const SLogoContainer = styled.div`
   position: absolute;
   text-align: center;
   top:10vh;
-  left: 50%;
+  left: 5vw;
 `;
 
