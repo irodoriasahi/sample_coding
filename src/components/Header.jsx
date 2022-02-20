@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import logo from "./img/logo.png";
+import { Logo } from "./Logo";
 import mv from "./img/mv.jpg";
-//画像等をインポートするときは{}はいらない
+import logo_pink from "./img/logo_pink.png";
 
 export const Header = () => {
 
@@ -9,7 +9,7 @@ export const Header = () => {
     <SHeader>
       <MVimage src={mv} alt="logo" />
       <SLogoContainer>
-      <Logo src={logo} alt="logoimagae" />
+      <Logo image={logo_pink} />
       <p>COMING SOON</p>
       </SLogoContainer>
     </SHeader>
@@ -23,10 +23,6 @@ position: relative;
 
 const MVimage = styled.img`
 
-  width: 100%;
-`;
-
-const Logo = styled.img`
   width: 100%;
 `;
 

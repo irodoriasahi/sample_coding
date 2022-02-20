@@ -21,13 +21,13 @@ export const App = () => {
   );
 };
 
-const SMain = styled.div`
+const SMain = styled.main`
   background-image: url(${BgImage});
   background-repeat:  repeat;
   background-position:center center;
   background-size:cover;
   width:100%;
-  height:100vh; //heightのみ%指定すると表示されなくなる
+  height:calc(100vh-); //heightのみ%指定すると表示されなくなる
   margin: 0 auto;
   text-align: center;
   padding: 45px 20px 0 20px;

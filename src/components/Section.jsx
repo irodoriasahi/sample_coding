@@ -37,6 +37,7 @@ margin: 0 auto;
     li {
       display: flex;
       padding-bottom: 10px;
+      align-items: flex-start;
 
       p {
         padding-left: 7px;
@@ -50,8 +51,8 @@ margin: 0 auto;
 `;
 
 const Icon = styled.img`
-  width: 30px;
-  height: 30px;
+  width: 10%;
+
 `;
 
 const SText = styled.p`
