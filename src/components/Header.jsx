@@ -9,7 +9,7 @@ export const Header = () => {
     <SHeader>
       <MVimage src={mv} alt="logo" />
       <SLogoContainer>
-      <Logo image={logo_pink} />
+      <Logo image="logo_pink" />
       <p>COMING SOON</p>
       </SLogoContainer>
     </SHeader>
