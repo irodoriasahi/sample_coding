@@ -4,17 +4,16 @@ import styled from "styled-components";
 export const Icon = (props) => {
   return (
     <>
-    <SIcon src={props.image}  ClassName="props.ClassName"/>
+    <SIconLarge src={props.image}  ClassName="props.text"/>
+    <SIconSmall src={props.image}  ClassName="props.text"/>
     </>
       );
 };
 
-  const SIcon = styled.img`
-    .IconLarge {
+  const SIconLarge = styled.img`
       width: 60px;
-    }
+  `;
 
-    .IconSmall {
+    const SIconSmall = styled.img`
       width: 30px;
-    }
   `;

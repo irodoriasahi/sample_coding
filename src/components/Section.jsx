@@ -7,14 +7,14 @@ export const Section = () => {
   return (
 
     <SContainer>
-      <Icon image={icon} alt="桜アイコン" ClassName="IconLarge" />
+      <Icon image={icon} alt="桜アイコン" text="IconLarge" />
       <ul>
         <li>
-            <Icon image={icon} alt="桜アイコン" ClassName="IconSmall" />
+            <Icon image={icon} alt="桜アイコン" text="IconSmall" />
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </li>
         <li>
-          <Icon image={icon} alt="桜アイコン" ClassName="IconSmall" />
+          <Icon image={icon} alt="桜アイコン" text="IconSmall" />
           <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </li>
       </ul>
