@@ -9,7 +9,7 @@ export const Header = () => {
     <SHeader>
       <MVimage src={mv} alt="logo" />
       <SLogoContainer>
-      <Logo image="logo_pink" />
+      <Logo image={logo_pink} />
       <p>COMING SOON</p>
       </SLogoContainer>
     </SHeader>
@@ -22,8 +22,9 @@ position: relative;
 `;
 
 const MVimage = styled.img`
-
   width: 100%;
+  max-height: 210px;
+  object-fit: cover;
 `;
 
 const SLogoContainer = styled.div`

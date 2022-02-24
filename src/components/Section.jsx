@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Icon } from "./Icon";
 import icon from "./img/icon_sakura.png";
 
 export const Section = () => {
@@ -6,24 +7,28 @@ export const Section = () => {
   return (
 
     <SContainer>
+      <Icon image={icon} alt="桜アイコン" ClassName="IconLarge" />
       <ul>
         <li>
-            <Icon src={icon} alt="桜アイコン" />
+            <Icon image={icon} alt="桜アイコン" ClassName="IconSmall" />
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </li>
         <li>
-          <Icon src={icon} alt="桜アイコン" />
+          <Icon image={icon} alt="桜アイコン" ClassName="IconSmall" />
           <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </li>
       </ul>
       <SText>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</SText>
     </SContainer>
+
+
   );
 
 };
 
 const SContainer = styled.div`
-margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
   max-width: 600px;
   text-align: center;
   padding: 0 15px;
@@ -37,7 +42,7 @@ margin: 0 auto;
     li {
       display: flex;
       padding-bottom: 10px;
-      align-items: flex-start;
+      align-items: flex-start;//垂直方向の揃え
 
       p {
         padding-left: 7px;
@@ -50,10 +55,6 @@ margin: 0 auto;
   }
 `;
 
-const Icon = styled.img`
-  width: 10%;
-
-`;
 
 const SText = styled.p`
   text-align: left;
