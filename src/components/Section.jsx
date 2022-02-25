@@ -27,6 +27,7 @@ export const Section = () => {
 };
 
 const SContainer = styled.div`
+
   position: relative;
   margin: 0 auto;
   max-width: 600px;
@@ -53,7 +54,11 @@ const SContainer = styled.div`
       padding-bottom: 0;
     }
   }
-`;
+
+@media only screen and (min-width:600px) {
+  max-width: 800px;
+  }`;
+
 
 
 const SText = styled.p`

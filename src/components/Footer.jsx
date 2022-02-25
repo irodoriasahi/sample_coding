@@ -13,8 +13,11 @@ const SFooter = styled.footer`
   background-repeat:  repeat;
   background-position:center center;
   background-size:cover;
+  margin: 0 auto;
   width:100%;
-  height:30px;
+  max-width: 800px;
+  max-height:30px;
+  object-fit: cover;
   padding-top: 30px;
   text-align: center;
 `;

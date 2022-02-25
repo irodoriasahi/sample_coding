@@ -14,7 +14,7 @@ export const App = () => {
     <Header />
     <SMain>
       <Section />
-      <Button />
+      <Button color="#F1A0C3"/>
     </SMain>
     <Footer />
     </>
@@ -27,8 +27,12 @@ const SMain = styled.main`
   background-position:center center;
   background-size:cover;
   width:100%;
-  height:calc(100vh-); //heightのみ%指定すると表示されなくなる
+  max-width: 800px;
+  height: calc(100vh - 240px);//heightのみ%指定すると表示されなくなる
   margin: 0 auto;
   text-align: center;
   padding: 45px 20px 0 20px;
-`;
+
+  @media only screen and (min-width:600px) {
+  height: calc(100vh - 430px);
+  }`;
