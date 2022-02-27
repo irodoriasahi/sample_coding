@@ -14,7 +14,7 @@ export const App = () => {
     <Header />
     <SMain>
       <Section />
-      <Button text="BgPink"/>
+      <Button color="#F1A0C3"/>
     </SMain>
     <Footer />
     </>
