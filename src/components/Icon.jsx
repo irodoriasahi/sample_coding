@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Icon = (props) => {
   return (
     <>
-    <SIcon src={props.image} className={props.text} />
+      <SIcon src={props.image} className={props.text} />
     </>
   );
 };

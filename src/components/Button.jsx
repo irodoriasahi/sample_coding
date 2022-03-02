@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Button = (props) => {
-    return (
-      <SButton type="button" {...props}>BUTTON</SButton>
-      );
+  return (
+    <SButton type="button" {...props}>
+      BUTTON
+    </SButton>
+  );
 };
 
 const SButton = styled.button`
@@ -14,7 +16,7 @@ const SButton = styled.button`
   border-radius: 6px;
   padding: 8px 0;
   color: #fff;
-  background-color: ${(props)=>props.color||"black"};
+  background-color: ${(props) => props.color || "black"};
   font-size: 18px;
   font-weight: bold;
 `;
